@@ -8,6 +8,19 @@
   --background-end-rgb: 255, 255, 255;
 }
 
+::-webkit-scrollbar{
+  width: 5px
+}
+
+::-webkit-scrollbar-track{
+  background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb{
+  background-color: #cecdcd;
+  border-radius: 20px;
+}
+
 @media (prefers-color-scheme: dark) {
   :root {
     --foreground-rgb: 255, 255, 255;
