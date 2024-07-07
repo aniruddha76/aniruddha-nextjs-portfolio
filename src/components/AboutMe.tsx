@@ -67,7 +67,7 @@ export default function AboutMe() {
               <p className="sm:text-sm text-xs text-center font-semibold text-neutral-500 mt-4">
                 I hunt jobs here
               </p>
-              <Link href={'https://www.linkedin.com/in/aniruddha-thakur-b36482259/'}>
+              <Link href={'https://www.linkedin.com/in/aniruddha-thakur-b36482259/'} passHref>
                 <p className="border border-red-500 bg-red-100 dark:bg-red-900/20 text-red-600 text-xs rounded-full px-2 py-0.5 mt-4">
                     LinkedIn
                 </p>
@@ -84,7 +84,7 @@ export default function AboutMe() {
               <p className="sm:text-sm text-xs text-center font-semibold text-neutral-500 mt-4">
                 I keep my codes here
               </p>
-              <Link href={'https://github.com/aniruddha76'}>
+              <Link href={'https://github.com/aniruddha76'} passHref>
                 <p className="border border-green-500 bg-green-100 dark:bg-green-900/20 text-green-600 text-xs rounded-full px-2 py-0.5 mt-4">
                     Github
                 </p>
@@ -104,7 +104,7 @@ export default function AboutMe() {
               <p className="sm:text-sm text-xs text-center font-semibold text-neutral-500 mt-4">
                 I spend my time here
               </p>
-              <Link href={'https://www.instagram.com/aniiruddhaa_/'}>
+              <Link href={'https://www.instagram.com/aniiruddhaa_/'} passHref>
                 <p className="border border-orange-500 bg-orange-100 dark:bg-orange-900/20 text-orange-600 text-xs rounded-full px-2 py-0.5 mt-4">
                     Instagram
                 </p>
@@ -116,7 +116,7 @@ export default function AboutMe() {
 
     const items = [
         {
-            title: "Aniruddha Ravindra Thakur",
+            title: "A Little About Me",
             description: "Hello! I'm Aniruddha Thakur, a passionate web developer and designer who thrives on creating stunning and intuitive frontend designs. My journey in the digital world began with a fascination for how design and code can come together to create seamless user experiences. As a web developer, I meticulously craft responsive and efficient code that brings my designs to life. My goal is to make every website not only look fantastic but also function flawlessly.",
             className: "md:col-span-2",
             icon: <IconSignature className="h-4 w-4 text-neutral-500" />,
