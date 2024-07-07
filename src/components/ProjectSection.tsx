@@ -162,11 +162,11 @@ export default function ProjectSection() {
                         <div className="text-sm  prose prose-sm dark:prose-invert">
                             {item?.image && (
                                 <Image
-                                    src={item.image}
-                                    alt="blog thumbnail"
-                                    height="1000"
-                                    width="1000"
-                                    className="rounded-lg mb-10 fit-cover"
+                                src={item.image}
+                                alt="blog thumbnail"
+                                width={1000}
+                                height={100}
+                                className="rounded-lg mb-10 object-cover"
                                 />
                             )}
                             {item.description}
