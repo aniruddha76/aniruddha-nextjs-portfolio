@@ -65,7 +65,7 @@ export default function AboutMe() {
                 className="rounded-full h-10 w-10"
               />
               <p className="sm:text-sm text-xs text-center font-semibold text-neutral-500 mt-4">
-                I hunt job here
+                I hunt jobs here
               </p>
               <Link href={'https://www.linkedin.com/in/aniruddha-thakur-b36482259/'}>
                 <p className="border border-red-500 bg-red-100 dark:bg-red-900/20 text-red-600 text-xs rounded-full px-2 py-0.5 mt-4">
@@ -82,7 +82,7 @@ export default function AboutMe() {
                 className="rounded-full h-10 w-10"
               />
               <p className="sm:text-sm text-xs text-center font-semibold text-neutral-500 mt-4">
-                I keep my code here
+                I keep my codes here
               </p>
               <Link href={'https://github.com/aniruddha76'}>
                 <p className="border border-green-500 bg-green-100 dark:bg-green-900/20 text-green-600 text-xs rounded-full px-2 py-0.5 mt-4">
@@ -102,7 +102,7 @@ export default function AboutMe() {
                 className="rounded-full h-10 w-10"
               />
               <p className="sm:text-sm text-xs text-center font-semibold text-neutral-500 mt-4">
-                I spend free time here
+                I spend my time here
               </p>
               <Link href={'https://www.instagram.com/aniiruddhaa_/'}>
                 <p className="border border-orange-500 bg-orange-100 dark:bg-orange-900/20 text-orange-600 text-xs rounded-full px-2 py-0.5 mt-4">
