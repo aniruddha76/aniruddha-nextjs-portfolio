@@ -2,6 +2,7 @@ import HeroSection from "@/components/HeroSection";
 import AboutMe from "@/components/AboutMe";
 import TechStack from "@/components/TechStack";
 import ProjectSection from "@/components/ProjectSection";
+import Contact from "@/components/Contact";
 
 export default function Home() {
   return (
@@ -10,6 +11,7 @@ export default function Home() {
       <AboutMe />
       <TechStack />
       <ProjectSection />
+      <Contact />
     </main>
   );
 }
