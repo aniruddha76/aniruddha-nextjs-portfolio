@@ -14,13 +14,13 @@ import Link from "next/link";
 export default function AboutMe() {
 
     const Skeleton = () => (
-        <div className="flex flex-1 w-full h-full rounded-xl border border-transparent dark:border-white/[0.2] bg-neutral-100 dark:bg-black">
+        <div className="flex flex-1 w-full h-full rounded-xl border border-transparent dark:border-white/[0.2] bg-neutral-100 dark:bg-black overflow-hidden">
             <Image
                 src="/aniruddha.jpg"
                 alt="Aniruddha Thakur"
                 width={1000}
                 height={1000}       
-                className="rounded-lg"
+                className="rounded-lg transition-all hover:scale-[1.1]"
             />
         </div>
     );

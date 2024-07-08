@@ -28,7 +28,7 @@ export default function ProjectSection() {
         </>
       ),
       badge: "College Project",
-      image: "/",
+      image: "/projects/studiosrepo.jpeg",
       repoLink: "https://github.com/aniruddha76/StudiousRepo",
       liveLink: "_blank",
     },
@@ -51,7 +51,7 @@ export default function ProjectSection() {
         </>
       ),
       badge: "Personal Project",
-      image: "/",
+      image: "/projects/instadownloader.png",
       repoLink: "https://github.com/aniruddha76/insta-downloader",
       liveLink: "https://github.com/aniruddha76/insta-downloader/releases/tag/extension",
     },
@@ -74,7 +74,7 @@ export default function ProjectSection() {
         </>
       ),
       badge: "Personal Project",
-      image: "/",
+      image: "/projects/express.png",
       repoLink: "https://github.com/aniruddha76/Express-Share",
       liveLink: "https://fileshare-express.vercel.app",
     },
@@ -99,7 +99,7 @@ export default function ProjectSection() {
         </>
       ),
       badge: "Personal Project",
-      image: "/",
+      image: "/projects/twine.png",
       repoLink: "https://github.com/aniruddha76/twine-video-calling",
       liveLink: "https://twine-video-calling.vercel.app/",
     },
@@ -123,7 +123,7 @@ export default function ProjectSection() {
         </>
       ),
       badge: "Personal Project",
-      image: "/",
+      image: "/projects/beatbox.png",
       repoLink: "https://github.com/aniruddha76/Beatbox",
       liveLink: "https://discord.com/oauth2/authorize?client_id=1213534821289033739&permissions=8&scope=bot",
     },
@@ -148,7 +148,7 @@ export default function ProjectSection() {
         </>
       ),
       badge: "Personal Project",
-      image: "/",
+      image: "/projects/blockyfy.png",
       repoLink: "https://github.com/aniruddha76/Blockify",
       liveLink: "_blank",
     },
@@ -157,7 +157,7 @@ export default function ProjectSection() {
   return (
     <TracingBeam className="px-6">
       <div className="max-w-2xl mx-auto antialiased pt-4 relative text-neutral-500" id="project">
-        <h1 className="text-4xl text-white mb-4 font-[500]">Some of the Projects I Have Done</h1>
+        <h1 className="text-4xl text-white mb-4 font-[500]">Some of the Projects I&apos;ve Done</h1>
         {dummyContent.map((item, index) => (
           <div key={`content-${index}`} className="mb-10">
             <h2 className="bg-black rounded-full text-sm w-fit px-4 py-1 mb-4">
@@ -168,7 +168,7 @@ export default function ProjectSection() {
               {item.title}
             </p>
 
-            <div className="text-sm  prose prose-sm dark:prose-invert">
+            <div className="text-sm prose prose-sm dark:prose-invert">
               {item?.image && (
                 <Image
                   src={item.image}
