@@ -27,7 +27,7 @@ export default function HeroSection() {
                         borderRadius="1rem"
                         className="bg-white dark:bg-black text-black dark:text-white border-neutral-200 dark:border-slate-800"
                     >
-                        Let's Talk!
+                        Let&apos;s Talk!
                     </Button>
                 </Link>
 
