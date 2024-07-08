@@ -15,7 +15,7 @@ export default function HeroSection() {
                 <h1 className="text-4xl md:text-8xl font-bold bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-neutral-400">
                     Aniruddha Thakur
                 </h1>
-                I'm a
+                I&apos;m a
                 <FlipWords words={words} />
             </div>
 
