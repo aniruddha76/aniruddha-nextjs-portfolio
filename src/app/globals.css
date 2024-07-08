@@ -45,3 +45,13 @@ body {
     text-wrap: balance;
   }
 }
+
+.circular-fill{
+  box-shadow: 0 0 0 #8000ff inset;
+  transition-duration: .3s;
+}
+
+.circular-fill:hover {
+  box-shadow: 0 0 50px 100px #8000ff inset;
+  border: none;
+}

@@ -156,7 +156,7 @@ export default function ProjectSection() {
 
   return (
     <TracingBeam className="px-6">
-      <div className="max-w-2xl mx-auto antialiased pt-4 relative text-neutral-500" id="project">
+      <div className="max-w-2xl mx-auto antialiased pt-4 relative text-neutral-400" id="project">
         <h1 className="text-4xl text-white mb-4 font-[500]">Some of the Projects I&apos;ve Done</h1>
         {dummyContent.map((item, index) => (
           <div key={`content-${index}`} className="mb-10">
