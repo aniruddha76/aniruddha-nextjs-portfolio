@@ -10,8 +10,8 @@ export default function HeroSection() {
 
     return (
         <div className="h-[40rem] flex flex-col justify-center items-center px-4" id="home">
-            <div className="text-center text-4xl mx-auto font-normal text-neutral-600 dark:text-neutral-400">
-                <h4 className="text-2xl">Hello! This is,</h4>
+            <div className="text-center text-xl sm:text-4xl mx-auto font-normal text-neutral-600 dark:text-neutral-400">
+                <h4 className="text-xl sm:text-2xl">Hello! This is,</h4>
                 <h1 className="text-4xl md:text-8xl font-bold bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-neutral-400">
                     Aniruddha Thakur
                 </h1>
