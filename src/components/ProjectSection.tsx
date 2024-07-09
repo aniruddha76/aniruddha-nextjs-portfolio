@@ -182,13 +182,13 @@ export default function ProjectSection() {
             </div>
 
             <div className="flex gap-2 mt-2 text-white transition-all">
-              <Link href={item.repoLink} className="border rounded-full px-4 py-2 justify-center items-center transition-all hover:-translate-y-1">
+              <Link href={item.repoLink} target="_blank" className="border rounded-full px-4 py-2 justify-center items-center transition-all hover:-translate-y-1">
                 <button className="flex">
                   <IconGitFork />&nbsp;<p>Github</p>
                 </button>
               </Link>
 
-              <Link href={item.liveLink} className="border rounded-full px-4 py-2 justify-center items-center transition-all hover:-translate-y-1">
+              <Link href={item.liveLink} target="_blank" className="border rounded-full px-4 py-2 justify-center items-center transition-all hover:-translate-y-1">
                 <button className="flex">
                   <IconEye />&nbsp;<p>Live</p>
                 </button>

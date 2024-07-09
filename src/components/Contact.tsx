@@ -11,16 +11,16 @@ export default function Contact() {
             </div>
 
             <div className="flex justify-center items-center gap-3">
-                <Link href={'https://www.instagram.com/aniiruddhaa_/'}>
+                <Link href={'https://www.instagram.com/aniiruddhaa_/'} target="_blank">
                     <button className="border rounded-full p-4 circular-fill"><IconBrandInstagram className="h-8 w-8" /></button>
                 </Link>
-                <Link href={'https://github.com/aniruddha76'}>
+                <Link href={'https://github.com/aniruddha76'} target="_blank">
                     <button className="border rounded-full p-4 circular-fill"><IconBrandGithub className="h-8 w-8" /></button>
                 </Link>
-                <Link href={'https://www.linkedin.com/in/aniruddha-thakur-b36482259/'}>
+                <Link href={'https://www.linkedin.com/in/aniruddha-thakur-b36482259/'} target="_blank">
                     <button className="border rounded-full p-4 circular-fill"><IconBrandLinkedin className="h-8 w-8" /></button>
                 </Link>
-                <Link href={'mailto:aniruddhathakur76@gmail.com'}>
+                <Link href={'mailto:aniruddhathakur76@gmail.com'} target="_blank">
                     <button className="border rounded-full p-4 circular-fill"><IconMail className="h-8 w-8" /></button>
                 </Link>
             </div>
@@ -33,7 +33,7 @@ export default function Contact() {
             <center>
                 <Image
                     src='/ani3d.png'
-                    alt="blog thumbnail"
+                    alt="Aniruddha"
                     width={300}
                     height={200}
                     className="object-cover"

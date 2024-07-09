@@ -22,7 +22,7 @@ export default function HeroSection() {
             <br /><br />
 
             <div className="flex gap-2 z-10">
-                <Link href={'mailto:aniruddhathakur76@gmail.com'} passHref>
+                <Link href={'mailto:aniruddhathakur76@gmail.com'} target="_blank" passHref>
                     <Button
                         borderRadius="1rem"
                         className="bg-white dark:bg-black text-black dark:text-white border-neutral-200 dark:border-slate-800"
@@ -31,7 +31,7 @@ export default function HeroSection() {
                     </Button>
                 </Link>
 
-                <Link href={'https://drive.google.com/file/d/1qMy1mdC0JKDZk_OniWd51Hu8WVgXDPl0/view?usp=sharing'} passHref>
+                <Link href={'https://drive.google.com/file/d/1qMy1mdC0JKDZk_OniWd51Hu8WVgXDPl0/view?usp=sharing'} target="_blank" passHref>
                     <Button
                         borderRadius="1rem"
                         className="bg-white dark:bg-black text-black dark:text-white border-neutral-200 dark:border-slate-800"
