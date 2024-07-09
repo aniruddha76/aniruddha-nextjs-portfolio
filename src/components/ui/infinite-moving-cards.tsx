@@ -103,6 +103,7 @@ export const InfiniteMovingCards = ({
                         alt="Stack logo"
                         width={100}
                         height={100}
+                        draggable="false"
                       />
                     </span>
 

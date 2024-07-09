@@ -172,10 +172,11 @@ export default function ProjectSection() {
               {item?.image && (
                 <Image
                   src={item.image}
-                  alt="blog thumbnail"
+                  alt="Project"
                   width={1000}
                   height={100}
                   className="rounded-lg mb-10 object-cover"
+                  draggable="false"
                 />
               )}
               {item.description}

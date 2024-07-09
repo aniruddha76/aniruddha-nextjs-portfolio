@@ -37,6 +37,7 @@ export default function Contact() {
                     width={300}
                     height={200}
                     className="object-cover"
+                    draggable="false"
                 />
             </center>
 

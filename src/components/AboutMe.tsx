@@ -63,6 +63,7 @@ export default function AboutMe() {
                 height="100"
                 width="100"
                 className="rounded-full h-10 w-10"
+                draggable="false"
               />
               <p className="sm:text-sm text-xs text-center font-semibold text-neutral-500 mt-4">
                 I hunt jobs here
@@ -80,6 +81,7 @@ export default function AboutMe() {
                 height="100"
                 width="100"
                 className="rounded-full h-10 w-10"
+                draggable="false"
               />
               <p className="sm:text-sm text-xs text-center font-semibold text-neutral-500 mt-4">
                 I keep my codes here
@@ -100,6 +102,7 @@ export default function AboutMe() {
                 height="100"
                 width="100"
                 className="rounded-full h-10 w-10"
+                draggable="false"
               />
               <p className="sm:text-sm text-xs text-center font-semibold text-neutral-500 mt-4">
                 I spend my time here
