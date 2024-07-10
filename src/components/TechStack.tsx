@@ -30,6 +30,10 @@ export default function TechStack() {
             title: "Node JS",
         },
         {
+            link: "/logo/nextjs.png",
+            title: "Next JS",
+        },
+        {
             link: "/logo/typescript.png",
             title: "Typescript",
         },
