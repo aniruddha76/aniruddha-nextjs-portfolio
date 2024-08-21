@@ -3,6 +3,7 @@ import AboutMe from "@/components/AboutMe";
 import TechStack from "@/components/TechStack";
 import ProjectSection from "@/components/ProjectSection";
 import Contact from "@/components/Contact";
+import { ShowAllProjectButton } from "@/components/AllProjectButton";
 
 export default function Home() {
   return (
@@ -11,6 +12,7 @@ export default function Home() {
       <AboutMe />
       <TechStack />
       <ProjectSection />
+      <ShowAllProjectButton />
       <Contact />
     </main>
   );

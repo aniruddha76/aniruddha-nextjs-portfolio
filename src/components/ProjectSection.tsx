@@ -4,7 +4,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { twMerge } from "tailwind-merge";
 import { TracingBeam } from "./ui/tracing-beam";
-import { IconBrandGithub, IconBrandGithubFilled, IconEye, IconGitFork } from "@tabler/icons-react";
+import { IconBrandGithub, IconEye } from "@tabler/icons-react";
 
 export default function ProjectSection() {
 
@@ -183,7 +183,7 @@ export default function ProjectSection() {
             </div>
 
             <div className="flex gap-2 mt-2 text-white transition-all">
-              <Link href={item.repoLink} target="_blank" className="border rounded-full px-4 py-2 justify-center items-center transition-all hover:-translate-y-1">
+              <Link href={item.repoLink} target="_blank" className="border rounded-full px-2 py-2 justify-center items-center transition-all hover:-translate-y-1">
                 <button className="flex">
                   <IconBrandGithub />
                 </button>
