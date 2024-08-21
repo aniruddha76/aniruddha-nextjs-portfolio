@@ -10,6 +10,7 @@
   -ms-user-select: none;
   user-select: none;
   scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 
 ::-webkit-scrollbar{
@@ -52,9 +53,9 @@ body {
 .circular-fill{
   box-shadow: 0 0 0 #8000ff inset;
   transition-duration: .3s;
+  border: none;
 }
 
 .circular-fill:hover {
   box-shadow: 0 0 50px 100px #8000ff inset;
-  border: none;
 }
