@@ -30,7 +30,6 @@ export default function ProjectSection() {
       badge: "College Project",
       image: "/projects/studiosrepo.jpeg",
       repoLink: "https://github.com/aniruddha76/StudiousRepo",
-      liveLink: "_blank",
     },
     {
       title: "Insta Downloader Beta 0.3",
@@ -150,7 +149,6 @@ export default function ProjectSection() {
       badge: "Personal Project",
       image: "/projects/blockyfy.png",
       repoLink: "https://github.com/aniruddha76/Blockify",
-      liveLink: "_blank",
     },
   ];
 
@@ -189,11 +187,13 @@ export default function ProjectSection() {
                 </button>
               </Link>
 
-              <Link href={item.liveLink} target="_blank" className="border rounded-full px-4 py-2 justify-center items-center transition-all hover:-translate-y-1">
-                <button className="flex">
-                  <IconEye />&nbsp;<p>Live</p>
-                </button>
-              </Link>
+              {item.liveLink && (
+                <Link href={item.liveLink} target="_blank" className="border rounded-full px-4 py-2 justify-center items-center transition-all hover:-translate-y-1">
+                  <button className="flex">
+                    <IconEye />&nbsp;<p>Live</p>
+                  </button>
+                </Link>
+              )}
             </div>
           </div>
         ))}
