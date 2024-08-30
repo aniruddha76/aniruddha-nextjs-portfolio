@@ -23,21 +23,15 @@ export default function HeroSection() {
 
             <div className="flex gap-2 z-10">
                 <Link href={'mailto:aniruddhathakur76@gmail.com'} target="_blank" passHref>
-                    <Button
-                        borderRadius="1rem"
-                        className="bg-white dark:bg-black text-black dark:text-white border-neutral-200 dark:border-slate-800"
-                    >
-                        Let&apos;s Talk!
-                    </Button>
+                <button className="inline-flex h-12 w-40 animate-shimmer items-center justify-center rounded-xl border border-white bg-[linear-gradient(110deg,#000103,45%,#1e2631,55%,#000103)] bg-[length:200%_100%] px-6 font-medium text-white transition-all hover:scale-110 focus:outline-none focus:ring-2 focus:ring-slate-400 focus:ring-offset-2 focus:ring-offset-slate-50">
+                    Let's Talk
+                </button>
                 </Link>
 
                 <Link href={'https://drive.google.com/file/d/1qMy1mdC0JKDZk_OniWd51Hu8WVgXDPl0/view?usp=sharing'} target="_blank" passHref>
-                    <Button
-                        borderRadius="1rem"
-                        className="bg-white dark:bg-black text-black dark:text-white border-neutral-200 dark:border-slate-800"
-                    >
+                    <button className="inline-flex h-12 w-40 resume-btn items-center justify-center rounded-xl border border-white px-6 font-medium text-white transition-all hover:scale-110">
                         Resume
-                    </Button>
+                    </button>
                 </Link>
             </div>
             <BackgroundBeams />
