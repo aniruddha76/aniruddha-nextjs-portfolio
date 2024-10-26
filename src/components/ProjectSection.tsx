@@ -4,7 +4,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { twMerge } from "tailwind-merge";
 import { TracingBeam } from "./ui/tracing-beam";
-import { IconBrandGithub, IconEye } from "@tabler/icons-react";
+import { IconAlien, IconArrowAutofitContent, IconArrowBadgeRight, IconArrowBarRight, IconArrowBearRight, IconArrowBounce, IconArrowRight, IconBrandGithub, IconEye } from "@tabler/icons-react";
 
 export default function ProjectSection() {
 
@@ -158,7 +158,7 @@ export default function ProjectSection() {
         <h1 className="text-4xl text-white mb-4 font-[500]">Some of the Projects I&apos;ve Done</h1>
         {dummyContent.map((item, index) => (
           <div key={`content-${index}`} className="mb-10">
-            <h2 className="bg-black rounded-full text-sm w-fit px-4 py-1 mb-4">
+            <h2 className="bg-zinc-900 rounded-full text-sm w-fit px-4 py-1 mb-4">
               {item.badge}
             </h2>
 
@@ -181,16 +181,16 @@ export default function ProjectSection() {
             </div>
 
             <div className="flex gap-2 mt-2 text-white transition-all">
-              <Link href={item.repoLink} target="_blank" className="border rounded-full px-2 py-2 justify-center items-center transition-all hover:-translate-y-1">
+              <Link href={item.repoLink} target="_blank" className="group rounded-full px-2 py-2 justify-center items-center bg-[#8000ff]">
                 <button className="flex">
                   <IconBrandGithub />
                 </button>
               </Link>
 
               {item.liveLink && (
-                <Link href={item.liveLink} target="_blank" className="border rounded-full px-4 py-2 justify-center items-center transition-all hover:-translate-y-1">
+                <Link href={item.liveLink} target="_blank" className="group rounded-full px-4 py-2 justify-center items-center">
                   <button className="flex">
-                    <IconEye />&nbsp;<p>Live</p>
+                    <p>Live</p>&nbsp;<IconArrowRight className="transition-all group-hover:translate-x-1" />
                   </button>
                 </Link>
               )}
